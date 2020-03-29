@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ArduinoOSC.jnlp">
+  <information>
+    <title>ArduinoOSC</title>
+    <vendor>Ahmed</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ArduinoOSC.jar" size="4807" download="eager" />
+    <jar href="lib/arduino.jar" size="6873" download="eager" />
+    <jar href="lib/jSerialComm-2.6.0.jar" size="367571" download="eager" />
+    <jar href="lib/jcommon-1.0.15.jar" size="309294" download="eager" />
+    <jar href="lib/jcommon-1.0.16.jar" size="309293" download="eager" />
+    <jar href="lib/jfreechart-1.0.13.jar" size="1425744" download="eager" />
+    <jar href="lib/jmf.jar" size="2127510" download="eager" />
+    <jar href="lib/jstun.jar" size="77453" download="eager" />
+    <jar href="lib/org.kevoree.extra.osgi.rxtx-2.2.0.jar" size="872274" download="eager" />
+    <jar href="lib/org.sintef.jarduino.core-0.1.7-SNAPSHOT.jar" size="77658" download="eager" />
+    <jar href="lib/org.sintef.jarduino.gui-0.1.7-SNAPSHOT.jar" size="163972" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ArduinoOSC" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="arduinoosc.ArduinoOSC"  name="ArduinoOSC" />
+  <update check="always"/>
+</jnlp>
